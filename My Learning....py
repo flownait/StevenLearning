@@ -1,3 +1,8 @@
+import math
+print(dir(math))
+
+
+
 import datetime
 
 sttime=datetime.datetime.now()
