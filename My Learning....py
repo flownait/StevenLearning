@@ -1,6 +1,35 @@
 import math
 print(dir(math))
 
+# Get the biggest number function, attetion on paramter expression: *args
+def biggest_number(*args):
+  print (max(args))
+  return max(args)
+
+biggest_number(-10, -5, 5, 10)
+
+# This is for List regular usage
+a=['2','3',4,5]
+a.index('2') #return the first mapped value index number
+a.insert(a.index('2'),'5') # in the 3rd place insert one value, all the others moving down by 1
+a.sort() # return error as string mixed with number
+
+# Difference among Bracket, Curly Brace
+a = [1,2,3]
+a.remove(1)
+b = {'key1' : 1, 'key2' : 2, 'key3' : 3} # Dictionary storage, like login headers with username, password...
+b['key1']=5 # change one key
+b['key4']=6 # assign new value
+del b['key3'] # remove existed value
+print (b['key1'])
+
+
+
+
+
+
+
+
 
 
 import datetime
