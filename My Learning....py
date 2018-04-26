@@ -39,7 +39,12 @@ for i,j in enumerate(a): # Iterate with auto-index and value
 for i,j in zip(a,b): # Iterate for 2 parellel lists
   print (i,j)
 
-
+for i in range(5):
+  if i>5:
+    print i
+    break
+else: # Else in for loop
+  print "no 5"
 
 
 
