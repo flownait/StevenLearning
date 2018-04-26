@@ -17,6 +17,8 @@ a.pop(1) # return and remove the index as declared
 a.remove('2') # remove based on item value
 del(a[1]) # similar with pop without return value
 
+"-".join(a) # make list values joined
+
 # Difference among Bracket, Curly Brace
 a = [1,2,3]
 b = {'key1' : 1, 'key2' : 2, 'key3' : 3} # Dictionary storage, like login headers with username, password...
@@ -31,8 +33,11 @@ for i in d:
   print (i["key1"],i["key2"],i["key3"])
 
 
+for i,j in enumerate(a): # Iterate with auto-index and value
+  print (i,j)
 
-
+for i,j in zip(a,b): # Iterate for 2 parellel lists
+  print (i,j)
 
 
 
