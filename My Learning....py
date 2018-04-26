@@ -10,6 +10,7 @@ biggest_number(-10, -5, 5, 10)
 
 # This is for List regular usage
 a=['2','3',4,5]
+sum([a+1 for a in range(10)])
 a[::-1] # which reverse the list
 a.index('2') #return the first mapped value index number
 a.insert(a.index('2'),'5') # in the 3rd place insert one value, all the others moving down by 1
