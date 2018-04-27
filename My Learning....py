@@ -10,7 +10,9 @@ biggest_number(-10, -5, 5, 10)
 
 # This is for List regular usage
 a=['2','3',4,5]
+a = [i for i in range(10) if i % 2 == 0] # quickly create a lists with for function
 sum([a+1 for a in range(10)])
+a[2:8:2] # [start:end:stride]
 a[::-1] # which reverse the list
 a.index('2') #return the first mapped value index number
 a.insert(a.index('2'),'5') # in the 3rd place insert one value, all the others moving down by 1
@@ -23,11 +25,13 @@ del(a[1]) # similar with pop without return value
 
 # Difference among Bracket, Curly Brace
 a = [1,2,3]
+
 b = {'key1' : 1, 'key2' : 2, 'key3' : 3} # Dictionary storage, like login headers with username, password...
 b['key1']=5 # change one key
 b['key4']=6 # assign new value
 del b['key3'] # remove existed value
 print (b['key1'])
+print (b.items(),b.keys(),b.values()) # show items (keys + values) by pairs
 
 c = {'key1' : 11, 'key2' : 22, 'key3' : 33}
 d=[b,c]
@@ -47,6 +51,8 @@ for i in range(5):
     break
 else: # Else in for loop
   print "no 5"
+
+  
 
 
 
