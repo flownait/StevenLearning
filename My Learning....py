@@ -10,7 +10,6 @@ biggest_number(-10, -5, 5, 10)
 
 # This is for List regular usage
 a=['2','3',4,5]
-a = [i for i in range(10) if i % 2 == 0] # quickly create a lists with for function
 sum([a+1 for a in range(10)])
 a[2:8:2] # [start:end:stride]
 a[::-1] # which reverse the list
@@ -20,6 +19,21 @@ a.sort() # return error as string mixed with number
 a.pop(1) # return and remove the index as declared
 a.remove('2') # remove based on item value
 del(a[1]) # similar with pop without return value
+
+# Below is list comprehension usage
+a = [i for i in range(10) if i % 2 == 0] # quickly create a lists with for function
+
+# Below is Anonymous Functions with lambda, filter, map, reduce
+list(filter(lambda x: x % 2 == 0, range(10)))
+
+# Bitwise Operator, bit manipulation, like C language
+print 3 >> 2  # Right Shift
+print 2 << 3  # Left Shift
+print 3 & 2   # Bitwise AND
+print 3 | 2   # Bitwise OR
+print 3 ^ 2 # Bitwise XOR
+print ~2     # Bitwise NOT
+
 
 "-".join(a) # make list values joined
 
