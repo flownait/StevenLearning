@@ -67,7 +67,9 @@ else: # Else in for loop
   print "no 5"
 
   
-
+## From here, for class usage
+  
+  
 
 
 import datetime
