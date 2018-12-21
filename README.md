@@ -5,6 +5,9 @@ Some Reference Links
 
 https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary-in-python
 
+https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression
+
+
 
 
 # For Python learning keynotes
