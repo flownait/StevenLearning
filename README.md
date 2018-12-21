@@ -1,6 +1,11 @@
 # StevenLearning
 learning records
 
+Some Reference Links
+
+https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary-in-python
+
+
 
 # For Python learning keynotes
 1. %s (string), %d (integer), %f (float), %03s represents for string parameter
