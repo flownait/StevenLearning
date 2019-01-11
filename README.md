@@ -17,3 +17,7 @@ https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-sin
 
 # iPython & Jupyter Notebook
 1. iPython actually is another shell command in terminal, could type $ iPython directly in terminal to envoke the interpreter
+
+# Pandas Usage
+to_sql error
+[ISSUE 1](https://stackoverflow.com/questions/48711385/operational-error-2055-while-exporting-pandas-dataframe-to-mysql-using-sqlalchem)
