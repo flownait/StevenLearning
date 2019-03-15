@@ -21,3 +21,6 @@ https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-sin
 # Pandas Usage
 to_sql error
 [ISSUE 1](https://stackoverflow.com/questions/48711385/operational-error-2055-while-exporting-pandas-dataframe-to-mysql-using-sqlalchem)
+
+
+https://trainings.analyticsvidhya.com/courses/course-v1:AnalyticsVidhya+CVDL101+CVDL101_T1/ about?utm_source=imageclassarticle&utm_ medium=blog
