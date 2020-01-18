@@ -8,7 +8,13 @@ https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary-i
 https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression
 
 
+# Create Virtual Environment on Mac Catalina
 
+python3 -m pip install virtualenv --user
+or
+pip3 install virtualenv --user
+## Create environment with different versions
+virtualenv --python=/usr/bin/python2.6 <path/to/new/virtualenv/>
 
 # For Python learning keynotes
 1. %s (string), %d (integer), %f (float), %03s represents for string parameter
