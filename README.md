@@ -15,6 +15,8 @@ or
 pip3 install virtualenv --user
 ## Create environment with different versions
 virtualenv --python=/usr/bin/python2.6 <path/to/new/virtualenv/>
+## Create environment with user installed versions
+virtualenv --python=/usr/local/bin/python3.6 env36
 
 # For Python learning keynotes
 1. %s (string), %d (integer), %f (float), %03s represents for string parameter
