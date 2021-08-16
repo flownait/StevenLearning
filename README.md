@@ -7,6 +7,10 @@ https://stackoverflow.com/questions/209840/convert-two-lists-into-a-dictionary-i
 
 https://stackoverflow.com/questions/38987/how-to-merge-two-dictionaries-in-a-single-expression
 
+# Install Python via [download](https://www.python.org/downloads/macos/) 
+## change environment
+
+PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
 
 # Create Virtual Environment on Mac Catalina
 
