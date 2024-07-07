@@ -15,8 +15,14 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
 # Create Virtual Environment on Mac Catalina
 
 python3 -m pip install virtualenv --user
+
 or
+
 pip3 install virtualenv --user
+
+# Create Virtual Environment on specific folder
+python3 -m venv ~/env36 
+
 ## Create environment with different versions
 virtualenv --python=/usr/bin/python2.6 <path/to/new/virtualenv/>
 ## Create environment with user installed versions
